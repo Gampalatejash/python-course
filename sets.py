@@ -1,0 +1,10 @@
+set1={1,2,3,4,5}
+set2={4,6,7,8,9}
+my_union=set2.union(set1)
+my_intersection=set2.intersection(set1)
+set1.remove(4)
+set1.add(10)
+print(set1)
+print(set2)
+print(my_union)
+print(my_intersection)
